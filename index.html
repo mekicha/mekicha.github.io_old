@@ -1,30 +1,49 @@
-<!DOCTYPE <!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>The Mekicha Blog</title>
-	<!--Link up to main stylesheet -->
-	<link  rel = "stylesheet" type="text/css" href="/css/main.css">
+	<title>Mekicha Blog</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
-<body>
-<nav>
-	<ul>
-		<li><a href="/">Home</a></li>
-		<li><a href="/about">About</a></li>
-		<li><a href="/cv"></a>CV</li>
-		<li><a href="/blog">Blog</a></li>
-	</ul>
-</nav>
+<div class="container-fluid"><!--body wrapper-->
 <div class="container">
-	<div class="blurb">
-		<h1>Hi there, I'm  Emeka Icha</h1>
-		<p>A budding computer scientist on the rise, I hope.</p>
-	</div> <!-- /.blurb -->
-</div>  <!-- /.container -->
+  <div class="row">
+     <div class="col-md-8 col-md-offset-1">
+       <img src="images/cover.jpg" height="400" width="960">
+       <img class="img-thumbnail profile" src="images/me.jpg" height="100" width="160">
+       <ul class="list-inline cover-links">
+       	<li><h1>Emeka Icha</h1></li>
+       	<span class="pull-right">
+       	<li class="list-group-item"><a href="#">Message</a></li>
+       	</span>
+       </ul>
+    <!--The navigation bar -->
+    <div class="navigate">
+     <ul class="nav navbar">
+         <li><a href="#">About</a></li>
+         <li><a href="#">Projects</a></li>
+         <li><a href="#">Contact</a></li>
+       </ul>
+    </div>
+     </div>
+  </div>
+</div>
 
+<div class="container">
+	<div class="jumbotron jumbo">
+		<h3>Hello, I'm Emeka Icha.</h3>
+		<p>Emeka Icha is a computer science student in Moscow, Russia.</p>
+		<p>His desire is to deploy computational knowledge to solve contemporary human needs in an innovative and dynamic way, if you know what I mean.
+		This is why he learns, and keeps learning programming in particular, computer science in general.</p>
+		<p>Apart from computer science, he also dabbles into videography/photography, albeit at a very amateur level.Oh, and lest I forget, he is also into writing, from short stories to poems, and everything in between. So I heard.</p>
+	</div>
+</div>
 <footer>
-	<li><a href="/about"></a></li>
-	<li><a href="https://github.com/mekicha">github.com</a></li>
-</footer>
+<p>&copy Mekicha Solutions 2016</p></footer>
+</div><!--body wrapper-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
 </body>
 </html>
