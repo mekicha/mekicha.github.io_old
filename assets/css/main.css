@@ -94,6 +94,29 @@ table {
         text-align: center;
     }
 }
+/*
+  ========================================
+  Links
+  ========================================
+*/
+.navbar li a {
+	font-size:16px;
+	font-weight: 400;
+   letter-spacing: .5px;
+   text-transform: uppercase;
+}
+.navbar li a:hover {
+	color: #a9b2b9;
+}
+.fa-twitter {
+	color:#27B7D1;
+}
+.fa-google-plus {
+	color:#AE1F1F;
+}
+.fa-github {
+	color:#4F4B4B;
+}
 
 /*
   ========================================
@@ -162,7 +185,7 @@ p {
 	padding: 20px;
 }
 footer {
-	margin: 0 auto;
+	margin-top:30px;
 	background-color: #2B252B;
 	height: 100%;
 	width: 100%;
@@ -173,6 +196,11 @@ footer p {
 }
 footer p {
 	color:#FDF2F1;
+}
+.copyright {
+	background-color: #847C7C;
+	height: 100%;
+	margin-top:10px;
 }
 
 
@@ -226,4 +254,14 @@ body {
 #about-text h1 {
 	text-align: center;
 	margin-bottom: 10px;
+}
+
+.contact-form button {
+	width:50%;
+	padding-top:15px;
+	padding-bottom: 20px;
+	font-size:18px;
+}
+.contact-form button:hover {
+	color:#69B27E;
 }
