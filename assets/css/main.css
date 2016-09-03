@@ -1,49 +1,229 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
 
-body{
-	margin-top:30px;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
-.profile{
-	position: relative;
-	top:-55px;
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
 }
-.cover-links{
-	position: relative;
-	top:-180px;
-	left:180px;
+body {
+  line-height: 1;
 }
-.cover-links h1{
-color:#fff;
+ol, ul {
+  list-style: none;
 }
-ul li{
-	display:inline-block;
+blockquote, q {
+  quotes: none;
 }
-span li{
-	font-size: 24px;}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
 
-span li a:link{
-	text-decoration: none;
-}
-span li a{
-	color:#3CB6CE;
-}
-.navigate{
-	position: relative;
-	left:380px;
-	bottom:190px;
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
 
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
-.navigate li{
-	font-size: 24px;
-display: inline-block;
+
+/*
+  ========================================
+  Header
+  ========================================
+*/
+
+#header-img {
+	width: 100%;
+	height: 288px;
 }
-.jumbo{
-	position: relative;
-	bottom:170px;
-	width: 960px;
-	margin:0 auto;
-	text-align: center;
+
+#about-img {
+	width: 100%;
+	height: 250px;
 }
-footer{
+
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+
+h1, h3, h4, h5, p {
+  margin-bottom: 22px;
+}
+h1, h2, h3, h4 {
+  color: #648880;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 44px;
+}
+
+h2 {
+  font-size: 28px;
+  line-height: 44px;
+}
+h3 {
+  font-size: 21px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  color: #a9b2b9;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: uppercase;
+}
+strong {
+  font-weight: 400;
+}
+cite, em {
+  font-style: italic;
+}
+
+div img {
+	width: 100%;
+	margin-bottom: 30px;
+}
+p {
+	font-family: "droid serif","Roboto",sans-serif;
+	line-height: 30px;
+	font-weight: 400px;
+}
+
+/*
+  ========================================
+  Footer
+  ========================================
+*/
+.social-icons {
+	width: 100%;
 	margin: 0 auto;
+	height: 60px;
+}
+
+.social-icons li {
+	display: inline-block;
+	padding: 20px;
+}
+footer {
+	margin: 0 auto;
+	background-color: #2B252B;
+	height: 100%;
+	width: 100%;
+}
+footer div,
+footer p {
 	text-align: center;
+}
+footer p {
+	color:#FDF2F1;
+}
+
+
+textarea {
+	width: 95%;
+	margin-top: 0;
+	height:120px;
+	margin-left: 10px;
+}
+.form-group {
+	margin:20px;
+}
+label {
+	margin-bottom: 8px;
+	margin-left: 10px;
+}
+
+
+/*
+  ========================================
+  Affix
+  ========================================
+*/
+
+  .affix {
+      top: 0;
+      width: 85%;
+
+  }
+
+  .affix + .container{
+      padding-top: 70px;
+  }
+
+body {
+	positon: relative;
+}
+
+
+#intro {
+	text-align: center;
+	background: #cbe2c1;
+    background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
+    background: -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
+    background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+    padding: 44px 0 22px 0;
+    margin-bottom: 25px;
+    font-family: "Droid serif", sans-serif;
+}
+
+#about-text h1 {
+	text-align: center;
+	margin-bottom: 10px;
 }
