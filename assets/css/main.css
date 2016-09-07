@@ -205,10 +205,10 @@ footer p {
 
 
 textarea {
-	width: 95%;
-	margin-top: 0;
+	width: 100%;
 	height:120px;
-	margin-left: 10px;
+  padding-left: 5px;
+  border-radius: 5px;
 }
 .form-group {
 	margin:20px;
@@ -241,7 +241,7 @@ body {
 
 
 #intro {
-	text-align: center;
+	justify-content: center;
 	background: #cbe2c1;
     background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
     background: -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
@@ -250,7 +250,12 @@ body {
     margin-bottom: 25px;
     font-family: "Droid serif", sans-serif;
 }
-
+#intro h1 {
+  text-align: center;
+}
+#intro p {
+  padding: 0 20px;
+}
 #about-text h1 {
 	text-align: center;
 	margin-bottom: 10px;
@@ -264,4 +269,18 @@ body {
 }
 .contact-form button:hover {
 	color:#69B27E;
+}
+
+#my-name {
+ color: #fff; 
+ text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135; 
+ font: 80px 'droid serif';
+}
+body {
+   background: #56B5E3;
+}
+
+#contact h1 {
+  text-align: center;
+  text-decoration: underline;
 }
