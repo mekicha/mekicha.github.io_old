@@ -1,10 +1,8 @@
 ---
 layout: default
 ---
-
-<h4>Blog</h4>
+<i class="fa fa-pencil"></i> Blog
 {% for post in site.posts %}
-  <time> {{ post.date | date : "%b %-d, %Y"}}</time>
-  <h3><a href="{{ post.url |prepend: site.baseurl }}">{{ post.title }}</a></h3>
+ <a href="{{ post.url |prepend: site.baseurl }}">{{ post.title }}</a>
 
   {% endfor %}
