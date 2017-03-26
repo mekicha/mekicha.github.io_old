@@ -16,7 +16,7 @@ sass:
 kramdown:
   input: GFM
 include: ['_pages']
-theme: minima
+theme: kayman
 gems:
   - jekyll-feed
 exclude:
